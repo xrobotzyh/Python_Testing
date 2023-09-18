@@ -77,6 +77,7 @@ def purchasePlaces():
         response.status_code = 403
         return response
     else:
+        # the points most reflected once places reserved and confirmed
         club['points'] = int(club['points']) - places_required
         competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - places_required
         flash('Great-booking complete!')
