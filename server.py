@@ -1,19 +1,18 @@
 import json
-from datetime import datetime
-
 from flask import Flask, render_template, request, redirect, flash, url_for, make_response
+from datetime import datetime
 
 
 def loadClubs():
     with open('clubs.json') as c:
-         listOfClubs = json.load(c)['clubs']
-         return listOfClubs
+        listOfClubs = json.load(c)['clubs']
+        return listOfClubs
 
 
 def loadCompetitions():
     with open('competitions.json') as comps:
-         listOfCompetitions = json.load(comps)['competitions']
-         return listOfCompetitions
+        listOfCompetitions = json.load(comps)['competitions']
+        return listOfCompetitions
 
 
 app = Flask(__name__)
@@ -22,9 +21,11 @@ app.secret_key = 'something_special'
 competitions = loadCompetitions()
 clubs = loadClubs()
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/showSummary', methods=['POST'])
 def showSummary():
@@ -77,14 +78,15 @@ def purchasePlaces():
         response.status_code = 403
         return response
     else:
-        # the points most reflected once places reserved and confirmed
         club['points'] = int(club['points']) - places_required
         competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - places_required
         flash('Great-booking complete!')
         return render_template('welcome.html', club=club, competitions=competitions)
 
 
-# TODO: Add route for points display
+@app.route('/show_club_points')
+def show_club_points():
+    return render_template('show_clubs.html', clubs=clubs, competitions=competitions)
 
 
 @app.route('/logout')
