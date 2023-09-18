@@ -1,4 +1,6 @@
 import json
+from datetime import datetime
+
 from flask import Flask, render_template, request, redirect, flash, url_for, make_response
 
 
@@ -37,13 +39,23 @@ def showSummary():
 
 
 @app.route('/book/<competition>/<club>')
-def book(competition,club):
+def book(competition, club):
     foundClub = [c for c in clubs if c['name'] == club][0]
     foundCompetition = [c for c in competitions if c['name'] == competition][0]
-    if foundClub and foundCompetition:
-        return render_template('booking.html',club=foundClub,competition=foundCompetition)
+
+    competition_pasted = (datetime.strptime(foundCompetition['date'], '%Y-%m-%d %H:%M:%S') < datetime.now())
+
+    if foundClub and foundCompetition and not competition_pasted:
+        return render_template('booking.html', club=foundClub, competition=foundCompetition)
+    elif foundClub and foundCompetition and competition_pasted:
+        flash("The competition is finished !")
+        response = make_response(render_template('welcome.html', club=foundClub, competitions=competitions))
+        response.status_code = 403
+        return response
     else:
         flash("Something went wrong-please try again")
+        response = make_response(render_template('welcome.html', club=club, competitions=competitions))
+        response.status_code = 400
         return render_template('welcome.html', club=club, competitions=competitions)
 
 
