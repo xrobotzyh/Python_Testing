@@ -53,7 +53,13 @@ def purchasePlaces():
     club = [c for c in clubs if c['name'] == request.form['club']][0]
     places_required = int(request.form['places'])
     points_left_club = int(club['points'])
-    if places_required > points_left_club:
+    places_max_reserve = 12
+    if places_required > places_max_reserve:
+        flash(" You can not reserve more than 12 places")
+        response = make_response(render_template('welcome.html', club=club, competitions=competitions))
+        response.status_code = 403
+        return response
+    elif places_required > points_left_club:
         flash(" You do not have enough points to reserve the places")
         response = make_response(render_template('welcome.html', club=club, competitions=competitions))
         response.status_code = 403
