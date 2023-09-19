@@ -19,6 +19,7 @@ def validate_club():
     }
     return data
 
+
 @pytest.fixture
 def validate_clubs_points_less_than_12():
     data = {
@@ -47,3 +48,5 @@ def competition_past():
         "numberOfPlaces": "13"
     }
     return data
+
+
