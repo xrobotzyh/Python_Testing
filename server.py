@@ -49,7 +49,7 @@ def book(competition, club):
     if foundClub and foundCompetition and not competition_pasted:
         return render_template('booking.html', club=foundClub, competition=foundCompetition)
     elif foundClub and foundCompetition and competition_pasted:
-        flash("The competition is finished !")
+        flash('The competition is finished !')
         response = make_response(render_template('welcome.html', club=foundClub, competitions=competitions))
         response.status_code = 403
         return response
@@ -68,12 +68,12 @@ def purchasePlaces():
     points_left_club = int(club['points'])
     places_max_reserve = 12
     if places_required > places_max_reserve:
-        flash(" You can not reserve more than 12 places")
+        flash('You can not reserve more than 12 places')
         response = make_response(render_template('welcome.html', club=club, competitions=competitions))
         response.status_code = 403
         return response
     elif places_required > points_left_club:
-        flash(" You do not have enough points to reserve the places")
+        flash('You do not have enough points to reserve the places')
         response = make_response(render_template('welcome.html', club=club, competitions=competitions))
         response.status_code = 403
         return response
