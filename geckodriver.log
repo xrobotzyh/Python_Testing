@@ -417,3 +417,17 @@ DevTools listening on ws://127.0.0.1:54381/devtools/browser/61335e97-67e8-47df-a
 1695195701373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1695195705847	Marionette	INFO	Stopped listening on port 54401
 Dynamically enable window occlusion 1
+1695232336266	geckodriver	INFO	Listening on 127.0.0.1:51542
+1695232339281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofiles4JYqa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695232339665	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695232339735	Marionette	INFO	Listening on port 51556
+WebDriver BiDi listening on ws://127.0.0.1:51543
+Read port: 51556
+1695232339971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51543/devtools/browser/68004d46-7b56-485f-be09-02b669b2f514
+1695232346178	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695232348000	Marionette	INFO	Stopped listening on port 51556
+Dynamically enable window occlusion 1
