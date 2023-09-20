@@ -1,0 +1,419 @@
+1695140662445	geckodriver	INFO	Listening on 127.0.0.1:53820
+1695140665453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileBRdH3W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695140665850	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695140665932	Marionette	INFO	Listening on port 53841
+WebDriver BiDi listening on ws://127.0.0.1:53821
+Read port: 53841
+1695140666242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53821/devtools/browser/f03fa9d1-5a0b-4aae-92cd-67d5bd4adcce
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695140699097	Marionette	INFO	Stopped listening on port 53841
+Dynamically enable window occlusion 1
+1695140715198	geckodriver	INFO	Listening on 127.0.0.1:53881
+1695140718205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilelKtYUV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695140718571	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695140718642	Marionette	INFO	Listening on port 53889
+Read port: 53889
+WebDriver BiDi listening on ws://127.0.0.1:53882
+1695140718691	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53882/devtools/browser/d38ee1bc-1558-4c3e-8a0e-c8f87858d0d7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695142307153	Marionette	INFO	Stopped listening on port 53889
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileHJEcai"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695140759162	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695140759234	Marionette	INFO	Listening on port 53935
+Read port: 53935
+WebDriver BiDi listening on ws://127.0.0.1:53928
+1695140759285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53928/devtools/browser/b0422963-ee5c-450f-9384-2c65bdc3210c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695140768462	Marionette	INFO	Stopped listening on port 53935
+Dynamically enable window occlusion 1
+1695140852647	geckodriver	INFO	Listening on 127.0.0.1:53973
+1695140855652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53974" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileYnigiJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695140856025	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695140856095	Marionette	INFO	Listening on port 53982
+Read port: 53982
+WebDriver BiDi listening on ws://127.0.0.1:53974
+1695140856145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53974/devtools/browser/be59fb78-7cc3-450e-afea-bd4a2eb692f3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695140857942	Marionette	INFO	Stopped listening on port 53982
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1115: Error: Connection is not open.
+1695140914257	geckodriver	INFO	Listening on 127.0.0.1:54006
+1695140917269	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofiletjTep5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695140917635	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695140917705	Marionette	INFO	Listening on port 54015
+Read port: 54015
+WebDriver BiDi listening on ws://127.0.0.1:54007
+1695140917755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54007/devtools/browser/0b744a63-ec45-4c3f-84bb-7b802918f344
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695140919723	Marionette	INFO	Stopped listening on port 54015
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1115: Error: Connection is not open.
+1695142043493	geckodriver	INFO	Listening on 127.0.0.1:54089
+1695142046503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54090" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilePq4Rvu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695142046878	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695142046948	Marionette	INFO	Listening on port 54103
+WebDriver BiDi listening on ws://127.0.0.1:54090
+Read port: 54103
+1695142047183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54090/devtools/browser/500ad721-d6f6-41c0-911b-9c512f5064c3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695142048862	Marionette	INFO	Stopped listening on port 54103
+Dynamically enable window occlusion 1
+1695142245225	geckodriver	INFO	Listening on 127.0.0.1:54153
+1695142248238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54154" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofile2lxWx5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695142248603	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695142248674	Marionette	INFO	Listening on port 54161
+Read port: 54161
+WebDriver BiDi listening on ws://127.0.0.1:54154
+1695142248724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54154/devtools/browser/9396371a-d14d-4bd0-906e-47977994331d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695142300479	Marionette	INFO	Stopped listening on port 54161
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilezLXEvT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695142293569	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695142293644	Marionette	INFO	Listening on port 54206
+WebDriver BiDi listening on ws://127.0.0.1:54199
+Read port: 54206
+1695142293874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54199/devtools/browser/62f69306-8e7d-4d17-8ca0-e9a86b6e5dc1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1695142302657	Marionette	INFO	Stopped listening on port 54206
+Dynamically enable window occlusion 1
+1695142692953	geckodriver	INFO	Listening on 127.0.0.1:54258
+1695142695966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54259" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileUPDpVW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695142696331	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695142696403	Marionette	INFO	Listening on port 54272
+Read port: 54272
+WebDriver BiDi listening on ws://127.0.0.1:54259
+1695142696454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54259/devtools/browser/bd6280c0-3755-4e18-8e7c-99f2db002d8a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.error: "Problem getting stored prefs for TopSites"
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1695152769277	Marionette	INFO	Stopped listening on port 54272
+Dynamically enable window occlusion 1
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 1269) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileUPDpVW\\sessionstore.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: (new AbortError("A request was aborted, for example through a call to IDBTransaction.abort.", (void 0)))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+384/devtools/browser/0b44c48f-d63e-4fce-95e5-e1863365e9ab
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1695143399749	Marionette	INFO	Stopped listening on port 54397
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/focus-experiments getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1695143591147	geckodriver	INFO	Listening on 127.0.0.1:54452
+1695143594162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofile2uYLBS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695143594550	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695143594620	Marionette	INFO	Listening on port 54461
+WebDriver BiDi listening on ws://127.0.0.1:54453
+Read port: 54461
+1695143594863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54453/devtools/browser/ef3a0038-bf70-4d77-a55e-5e38dbd70593
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.error: "Problem getting stored prefs for TopSites"
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1695152770672	Marionette	INFO	Stopped listening on port 54461
+Dynamically enable window occlusion 1
+console.error: (new AbortError("A request was aborted, for example through a call to IDBTransaction.abort.", (void 0)))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+
+1695143696876	Marionette	INFO	Listening on port 54518
+WebDriver BiDi listening on ws://127.0.0.1:54508
+Read port: 54518
+1695143697119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("connection not specified or invalid.", "resource://gre/modules/Sqlite.sys.mjs", 1522))
+console.error: (new TypeError("db is undefined", "resource://gre/modules/PlacesUtils.sys.mjs", 1467))
+console.error: (new TypeError("db is undefined", "resource://gre/modules/PlacesUtils.sys.mjs", 1467))
+[GFX1-]: shader-cache: Failed to write program binary: 磁盘空间不足。 (os error 112)
+[ERROR webrender_bindings::program_cache] shader-cache: Failed to write program binary: 磁盘空间不足。 (os error 112)
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1431: TypeError: connection not specified in clone options.
+console.error: (new NotReadableError("Could not write chunk (size = 42460) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileA5Zgzr\\extensions.json.tmp. The file may be corrupt.", (void 0)))
+DevTools listening on ws://127.0.0.1:54508/devtools/browser/bfe7ab14-9a94-49bd-83ec-0847048708cd
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: (new RemoteSettingsWorkerError("QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.error: (new TypeError("db is undefined", "resource://gre/modules/Bookmarks.sys.mjs", 2534))
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1082: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: (new NotReadableError("Could not open the file at C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileA5Zgzr\\containers.json.tmp for writing", (void 0)))
+JavaScript error: resource://gre/modules/NewTabUtils.sys.mjs, line 1376: TypeError: conn is undefined
+JavaScript error: , line 0: NotReadableError: Could not create unique path
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.error: (new TypeError("db is undefined", "resource://gre/modules/Bookmarks.sys.mjs", 2534))
+[GFX1-]: shader-cache: Failed to write program binary: 磁盘空间不足。 (os error 112)
+[ERROR webrender_bindings::program_cache] shader-cache: Failed to write program binary: 磁盘空间不足。 (os error 112)
+JavaScript error: resource://gre/modules/NewTabUtils.sys.mjs, line 1376: TypeError: conn is undefined
+console.error: (new NotReadableError("Could not write chunk (size = 112910) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileA5Zgzr\\startupCache\\webext.sc.lz4.tmp. The file may be corrupt.", (void 0)))
+console.error: services.settings: 
+console.error: services.settings: 
+JavaScript error: , line 0: NotReadableError: Could not open the file at C:\Users\makai\AppDaJavaScript error: resource:///modules/WindowsJumpLists.sys.mjs, line 410: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1431: TypeError: connection not specified in clone options.
+1695152771860	Marionette	INFO	Stopped listening on port 54518
+Dynamically enable window occlusion 1
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 1274) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileA5Zgzr\\sessionstore.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: (new AbortError("A request was aborted, for example through a call to IDBTransaction.abort.", (void 0)))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+console.error: (new NotReadableError("Could not write chunk (size = 42460) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileA5Zgzr\\extensions.json.tmp. The file may be corrupt.", (void 0), 573))
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+ronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1082: Error: Error(s) encountered during statement execution: database or disk is full
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: (new RemoteSettingsWorkerError("QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: blocklists/addons-bloomfilters importChanges() IndexedDB:  importChanges() in blocklists/addons-bloomfilters The current transaction exceeded its quota limitations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:153:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:924:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: blocklists/gfx importChanges() IndexedDB: collections, timestamps, records importChanges() in blocklists/gfx A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:153:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:924:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+
+console.error: (new AbortError("IndexedDB: main/devtools-compatibility-browsers list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: services.settings: 
+  Message: StorageError: Storage error: AbortError: IndexedDB: main/devtools-compatibility-browsers importChanges() IndexedDB:  importChanges() in main/devtools-compatibility-browsers A request was aborted, for example through a call to IDBTransaction.abort.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:153:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:924:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: "Error when attaching target:" (void 0)
+console.error: "Error when attaching target:" (void 0)
+console.error: "Exception while opening the toolbox" "undefined" (void 0)
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1059: TypeError: e is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2778: Error: Can't select tool, wait for toolbox 'ready' event
+Handler function BrowserTabList.prototype.onCloseWindow's delayed body threw an exception: TypeError: watcher.browserElement.browsingContext is null
+Stack: destroyTargets@resource://devtools/server/actors/watcher/target-helpers/frame-helper.js:193:5
+unwatchTargets@resource://devtools/server/actors/watcher.js:250:24
+destroy@resource://devtools/server/actors/watcher.js:177:12
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+destroy@resource://devtools/shared/protocol/Actor.js:89:11
+destroy@resource://devtools/server/actors/descriptors/tab.js:249:11
+BrowserTabList.prototype._handleActorClose@resource://devtools/server/actors/webbrowser.js:415:9
+BrowserTabList.prototype.onCloseWindow</<@resource://devtools/server/actors/webbrowser.js:664:16
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+Line: 193, column: 5
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 193))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 4102: TypeError: this.toolbarButtons is undefined
+1695152764948	Marionette	INFO	Stopped listening on port 55010
+Dynamically enable window occlusion 1
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 1585) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileFC5zYG\\sessionstore.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: (new AbortError("A request was aborted, for example through a call to IDBTransaction.abort.", (void 0)))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1695152841213	geckodriver	INFO	Listening on 127.0.0.1:55079
+1695152844224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55080" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileMdFlZ7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695152844586	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695152844658	Marionette	INFO	Listening on port 55087
+Read port: 55087
+WebDriver BiDi listening on ws://127.0.0.1:55080
+console.error: (new QuotaExceededError("IndexedDB: main/anti-tracking-url-decoration getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1695152844708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+[GFX1-]: shader-cache: Failed to write program binary: 磁盘空间不足。 (os error 112)
+[ERROR webrender_bindings::program_cache] shader-cache: Failed to write program binary: 磁盘空间不足。 (os error 112)
+console.error: (new QuotaExceededError("IndexedDB: main/partitioning-exempt-urls getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: (new NotReadableError("Could not open the file at C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileMdFlZ7\\extensions.json.tmp for writing", (void 0)))
+[GFX1-]: s1695153076991	geckodriver	INFO	Listening on 127.0.0.1:55121
+1695153080002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55122" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695153080363	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695153080437	Marionette	INFO	Listening on port 55129
+Read port: 55129
+WebDriver BiDi listening on ws://127.0.0.1:55122
+1695153080488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new NotReadableError("Could not write chunk (size = 42460) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv\\extensions.json.tmp. The file may be corrupt.", (void 0)))
+DevTools listening on ws://127.0.0.1:55122/devtools/browser/0893eee0-f7fe-4d4e-b4fb-eac190e7b507
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1082: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: (new NotReadableError("Could not write chunk (size = 875) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv\\containers.json.tmp. The file may be corrupt.", (void 0)))
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1082: Error: Error(s) encountered during statement execution: database or disk is full
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.error: (new NotReadableError("Could not write chunk (size = 112710) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv\\startupCache\\webext.sc.lz4.tmp. The file may be corrupt.", (void 0)))
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 828) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: (new NotReadableError("Could not write chunk (size = 42460) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv\\extensions.json.tmp. The file may be corrupt.", (void 0)))
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/gfx getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: (new AbortError("IndexedDB: main/nimbus-desktop-experiments getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: "Problem getting stored prefs for TopSites"
+JavaScript error: , line 0: uncaught exception: null
+1695153394581	Marionette	INFO	Stopped listening on port 55129
+Dynamically enable window occlusion 1
+console.error: (new AbortError("A request was aborted, for example through a call to IDBTransaction.abort.", (void 0)))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+console.error: (new NotReadableError("Could not write chunk (size = 42460) to file C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileoOtPzv\\extensions.json.tmp. The file may be corrupt.", (void 0), 573))
+1695153444914	geckodriver	INFO	Listening on 127.0.0.1:55221
+1695153447931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilesDXMKy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695153448289	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695153448362	Marionette	INFO	Listening on port 55235
+WebDriver BiDi listening on ws://127.0.0.1:55222
+Read port: 55235
+1695153448491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55222/devtools/browser/88f71595-ca50-4fe7-9bef-985e6270ea3d
+1695153454797	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695153460593	Marionette	INFO	Stopped listening on port 55235
+Dynamically enable window occlusion 1
+1695153529325	geckodriver	INFO	Listening on 127.0.0.1:55295
+1695153532341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55296" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilekYJ4wH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695153532715	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695153532786	Marionette	INFO	Listening on port 55303
+WebDriver BiDi listening on ws://127.0.0.1:55296
+Read port: 55303
+1695153533019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55296/devtools/browser/b539399b-eb21-4fc1-8fae-25bd7ec163c6
+1695153539049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695153547222	Marionette	INFO	Stopped listening on port 55303
+Dynamically enable window occlusion 1
+1695153574004	geckodriver	INFO	Listening on 127.0.0.1:55338
+1695153577015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilelFetR3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695153577385	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695153577458	Marionette	INFO	Listening on port 55346
+WebDriver BiDi listening on ws://127.0.0.1:55339
+Read port: 55346
+1695153577693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55339/devtools/browser/643fac1f-d9b3-4db7-9048-7a8a35d284c6
+1695153583419	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695153585999	Marionette	INFO	Stopped listening on port 55346
+Dynamically enable window occlusion 1
+1695153681757	geckodriver	INFO	Listening on 127.0.0.1:55396
+1695153684764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileHGGvFY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695153685132	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695153685202	Marionette	INFO	Listening on port 55405
+Read port: 55405
+WebDriver BiDi listening on ws://127.0.0.1:55397
+1695153685256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55397/devtools/browser/9c9f2010-9073-4856-8553-e9bcb30d2d90
+1695153691566	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695153705797	Marionette	INFO	Stopped listening on port 55405
+Dynamically enable window occlusion 1
+1695153976631	geckodriver	INFO	Listening on 127.0.0.1:49940
+1695153979639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofile9GLBTY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695153981276	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695153981373	Marionette	INFO	Listening on port 49960
+WebDriver BiDi listening on ws://127.0.0.1:49941
+Read port: 49960
+1695153981613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49941/devtools/browser/2137edc2-c190-4622-bbdb-a91808002ba9
+1695153987748	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695154005510	Marionette	INFO	Stopped listening on port 49960
+Dynamically enable window occlusion 1
+1695154333031	geckodriver	INFO	Listening on 127.0.0.1:50150
+1695154336037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50151" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofileJoJzjc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695154336415	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695154336487	Marionette	INFO	Listening on port 50160
+WebDriver BiDi listening on ws://127.0.0.1:50151
+Read port: 50160
+1695154336739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50151/devtools/browser/9c9e50af-5ccf-457e-8fb7-fed91a160591
+1695154342876	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695154377919	Marionette	INFO	Stopped listening on port 50160
+Dynamically enable window occlusion 1
+1695154381101	geckodriver	INFO	Listening on 127.0.0.1:50241
+1695154384112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofilekE89LI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695154384462	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695154384531	Marionette	INFO	Listening on port 50249
+WebDriver BiDi listening on ws://127.0.0.1:50242
+Read port: 50249
+1695154384664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50242/devtools/browser/9820d363-314c-44de-ae51-eb8ba312bccb
+1695154390808	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695154403555	Marionette	INFO	Stopped listening on port 50249
+Dynamically enable window occlusion 1
+1695195691468	geckodriver	INFO	Listening on 127.0.0.1:54380
+1695195694480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\makai\\AppData\\Local\\Temp\\rust_mozprofiledkV86W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695195694882	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695195694964	Marionette	INFO	Listening on port 54401
+WebDriver BiDi listening on ws://127.0.0.1:54381
+Read port: 54401
+1695195695264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54381/devtools/browser/61335e97-67e8-47df-aaa0-f8fa37bd62e4
+1695195701373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695195705847	Marionette	INFO	Stopped listening on port 54401
+Dynamically enable window occlusion 1
