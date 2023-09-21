@@ -29,6 +29,7 @@ def index():
 
 @app.route('/showSummary', methods=['POST'])
 def showSummary():
+    # try to login with email,is the email is in json file,login,otherwise display a email not found message
     try:
         club = [club for club in clubs if club['email'] == request.form['email']][0]
         return render_template('welcome.html', club=club, competitions=competitions), club
@@ -43,7 +44,7 @@ def showSummary():
 def book(competition, club):
     foundClub = [c for c in clubs if c['name'] == club][0]
     foundCompetition = [c for c in competitions if c['name'] == competition][0]
-
+    # deserialize str time to object and check if the competition is past
     competition_pasted = (datetime.strptime(foundCompetition['date'], '%Y-%m-%d %H:%M:%S') < datetime.now())
 
     if foundClub and foundCompetition and not competition_pasted:
@@ -67,16 +68,19 @@ def purchasePlaces():
     places_required = int(request.form['places'])
     points_left_club = int(club['points'])
     places_max_reserve = 12
+    # if place required > 12 places
     if places_required > places_max_reserve:
         flash('You can not reserve more than 12 places')
         response = make_response(render_template('welcome.html', club=club, competitions=competitions))
         response.status_code = 403
         return response
+    # if places required > points that club have
     elif places_required > points_left_club:
         flash('You do not have enough points to reserve the places')
         response = make_response(render_template('welcome.html', club=club, competitions=competitions))
         response.status_code = 403
         return response
+    # normal condition, points update once places reserved
     else:
         club['points'] = int(club['points']) - places_required
         competition['numberOfPlaces'] = int(competition['numberOfPlaces']) - places_required
@@ -86,6 +90,9 @@ def purchasePlaces():
 
 @app.route('/show_club_points')
 def show_club_points():
+    """
+    @return: return a html page that shows clubs lists and their points left
+    """
     return render_template('show_clubs.html', clubs=clubs, competitions=competitions)
 
 

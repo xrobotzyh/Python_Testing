@@ -5,6 +5,9 @@ from server import app
 
 @pytest.fixture
 def client():
+    """
+    fixture to configure and provide a test client for flask
+    """
     app.config['TESTING'] = True
     with app.test_client() as client:
         yield client
@@ -12,6 +15,9 @@ def client():
 
 @pytest.fixture
 def validate_club():
+    """
+    fixture to provide a validate data which is in the initial json file
+    """
     data = {
         "name": "Simply Lift",
         "email": "john@simplylift.co",

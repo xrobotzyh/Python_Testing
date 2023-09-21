@@ -1,4 +1,12 @@
 def test_login_and_purchase_places(client, validate_club, validate_competition):
+    """
+    a test will check if login with validate club email can give 200 code and email name will display in the welcome
+    html page. also the session can book 2 places in validate competition with 200 code and corrected places number and
+    points left will display in welcome page after the process.
+    @param client: a fixture provide a test client for the flask,
+           validate_club: a json variable which is included in the json initial file
+           validate_competition:  a json variable which is included in the json initial file
+    """
     # login page
     response = client.get(f'/')
 

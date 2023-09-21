@@ -5,6 +5,10 @@ import time
 
 
 def test_login_and_purchase_places(validate_club):
+    """
+    a simulate test will simulate login action and book 1 places in validate competition
+    @param:validate_club: a json variable which is included in the json initial file
+    """
     driver = webdriver.Chrome()
 
     # navigate to initial url
