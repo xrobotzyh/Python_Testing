@@ -2,7 +2,7 @@
 
 ## 1. Why
 
-### The company Güdlft is developing a streamlined version of its flagship booking system for local and regional competition organizers. The goal is to simplify the administration of competitions, enabling clubs to register for events within their division. In this phase 1, we need to address issues and conduct tests to ensure that the features comply with the requirements.
+The company Güdlft is developing a streamlined version of its flagship booking system for local and regional competition organizers. The goal is to simplify the administration of competitions, enabling clubs to register for events within their division. In this phase 1, we need to address issues and conduct tests to ensure that the features comply with the requirements.
 
 ## 2.Local Configuration
 ## Installation
