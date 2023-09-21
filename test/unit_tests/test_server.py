@@ -110,7 +110,7 @@ class TestpurchasePlaces:
         club = validate_club['name']
         places_required = 2
 
-        response = client.post(f'/purchasePlaces',
+        response = client.post('/purchasePlaces',
                                data={'competition': competition, 'club': club, 'places': places_required})
 
         assert response.status_code == 200
@@ -128,7 +128,7 @@ class TestpurchasePlaces:
         club = validate_club['name']
         places_required = 13
 
-        response = client.post(f'/purchasePlaces',
+        response = client.post('/purchasePlaces',
                                data={'competition': competition, 'club': club, 'places': places_required})
 
         assert response.status_code == 403
@@ -147,7 +147,7 @@ class TestpurchasePlaces:
         club = validate_clubs_points_less_than_12
         places_required = int(club['points']) + 1
 
-        response = client.post(f'/purchasePlaces',
+        response = client.post('/purchasePlaces',
                                data={'competition': competition['name'], 'club': club['name'],
                                      'places': places_required})
 
@@ -161,7 +161,7 @@ def test_show_club_points(client):
     and right html page display
     @param client: a fixture provide a test client for the flask
     """
-    response = client.get(f'/show_club_points')
+    response = client.get('/show_club_points')
 
     assert response.status_code == 200
     assert b'Lists of clubs and their points || GUDLFT' in response.data
@@ -172,6 +172,6 @@ def logout(client):
     a test will check if client request logout page return a status code 200(successfully connected)
     @param client: a fixture provide a test client for the flask
     """
-    response = client.get(f'/logout')
+    response = client.get('/logout')
 
     assert response.status_code == 200

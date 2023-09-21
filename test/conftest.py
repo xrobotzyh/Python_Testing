@@ -54,5 +54,3 @@ def competition_past():
         "numberOfPlaces": "13"
     }
     return data
-
-
